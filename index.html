@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>B+ Tree Visualizer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>B+ Tree Visualizer</h1>
+        <p>Insertion, Searching and Deletion</p>
+    </header>
+
+    <main>
+
+        <section class="controls">
+
+            <input
+                type="number"
+                id="valueInput"
+                placeholder="Enter a number"
+            >
+
+            <button id="insertBtn">Insert</button>
+
+            <button id="searchBtn">Search</button>
+
+            <button id="deleteBtn">Delete</button>
+
+            <button id="clearBtn">Clear</button>
+
+        </section>
+
+        <p id="message">
+            Enter a value and select an operation.
+        </p>
+
+        <section class="tree-container">
+
+            <h2>B+ Tree</h2>
+
+            <div id="tree"></div>
+
+            <div id="leafSequence"></div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
